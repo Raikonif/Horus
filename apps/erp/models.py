@@ -12,6 +12,7 @@ class Type(models.Model):
         verbose_name = 'Tipo'
         verbose_name_plural = 'Tipos'
         ordering = ['id']    
+        
 
 class Category(models.Model):
     name = models.CharField(max_length=150,  verbose_name='Nombre')
